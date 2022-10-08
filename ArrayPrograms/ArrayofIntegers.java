@@ -1,6 +1,6 @@
 package ArrayPrograms;
 
-public class Array1 {
+public class ArrayofIntegers {
     public static void main(String args[]){
         int x[] = new int[4];
         int i;
@@ -9,7 +9,7 @@ public class Array1 {
         x[2]=3;
         x[3]=4;
 
-        System.out.println("Accessing Array position at 3 is :"+ " "+ x[3]);
+        System.out.println("Accessing Array position at 3 is :"+ " "+ x[2]);
 
         for(i=0;i< x.length;i++) {
             System.out.println("Printing Array in loop :"+ " "+x[i]);
