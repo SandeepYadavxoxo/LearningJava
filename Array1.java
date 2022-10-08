@@ -7,8 +7,10 @@ public class Array1 {
         x[2]=3;
         x[3]=4;
 
+        System.out.println("Accessing Array position at 3 is :"+ " "+ x[3]);
+
         for(i=0;i< x.length;i++) {
-            System.out.println(x[i]);
+            System.out.println("Printing Array in loop :"+ " "+x[i]);
         }
 
     }
