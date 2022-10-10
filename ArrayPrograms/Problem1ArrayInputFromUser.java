@@ -9,7 +9,7 @@ package ArrayPrograms;
 
 public class Problem1ArrayInputFromUser {
 
-    public static void display(double [] doubleArray){
+    public static void display(double[] doubleArray){
 
         for (int i =0;i<doubleArray.length;i++){
             System.out.println(doubleArray[i]);
