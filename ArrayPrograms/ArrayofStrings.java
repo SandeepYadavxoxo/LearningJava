@@ -5,7 +5,7 @@ public class ArrayofStrings {
     public static void main(String args[]){
 
 
-        String a[] = new String[3];
+        String a[];
         a = new String[]{"s","b","c","d","e"};
 
 
